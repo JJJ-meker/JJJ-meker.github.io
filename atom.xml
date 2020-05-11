@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-04-30T13:10:05.315Z</updated>
+  <updated>2020-05-11T09:53:35.074Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>docker部署时遇到的一个问题</title>
+    <link href="http://yoursite.com/2020/04/30/%E8%BF%9C%E7%A8%8B%E6%95%B0%E6%8D%AE%E5%BA%93%E8%BF%9E%E6%8E%A5%E6%97%B6%E9%81%87%E5%88%B0%E7%9A%84%E4%B8%80%E4%B8%AA%E9%97%AE%E9%A2%98/"/>
+    <id>http://yoursite.com/2020/04/30/%E8%BF%9C%E7%A8%8B%E6%95%B0%E6%8D%AE%E5%BA%93%E8%BF%9E%E6%8E%A5%E6%97%B6%E9%81%87%E5%88%B0%E7%9A%84%E4%B8%80%E4%B8%AA%E9%97%AE%E9%A2%98/</id>
+    <published>2020-04-30T13:25:45.000Z</published>
+    <updated>2020-05-11T09:53:35.074Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="远程数据库连接时遇到的一个问题"><a href="#远程数据库连接时遇到的一个问题" class="headerlink" title="远程数据库连接时遇到的一个问题"></a>远程数据库连接时遇到的一个问题</h1><h3 id="——Summary-of-April-2"><a href="#——Summary-of-April-2" class="headerlink" title="——Summary of April(2)"></a>——Summary of April(2)</h3><p>四月里，工作室举行了比赛，然后，我在用本地测试无误后连接远程数据库时，发现一个很神奇的事情（问题）。使用springboot框架，用yaml编写配置文件，本地数据库连接无误。</p><img src="/2020/04/30/%E8%BF%9C%E7%A8%8B%E6%95%B0%E6%8D%AE%E5%BA%93%E8%BF%9E%E6%8E%A5%E6%97%B6%E9%81%87%E5%88%B0%E7%9A%84%E4%B8%80%E4%B8%AA%E9%97%AE%E9%A2%98/yaml%EF%BC%881%EF%BC%89-1589190756570.jpg" class title="yaml:local"><img src="/2020/04/30/%E8%BF%9C%E7%A8%8B%E6%95%B0%E6%8D%AE%E5%BA%93%E8%BF%9E%E6%8E%A5%E6%97%B6%E9%81%87%E5%88%B0%E7%9A%84%E4%B8%80%E4%B8%AA%E9%97%AE%E9%A2%98/result(1).jpg" class title="result"><p>结果是正常运行的，当连接到远程时……</p><img src="/2020/04/30/%E8%BF%9C%E7%A8%8B%E6%95%B0%E6%8D%AE%E5%BA%93%E8%BF%9E%E6%8E%A5%E6%97%B6%E9%81%87%E5%88%B0%E7%9A%84%E4%B8%80%E4%B8%AA%E9%97%AE%E9%A2%98/yaml(2)-1589190790611.jpg" class title="yaml"><img src="/2020/04/30/%E8%BF%9C%E7%A8%8B%E6%95%B0%E6%8D%AE%E5%BA%93%E8%BF%9E%E6%8E%A5%E6%97%B6%E9%81%87%E5%88%B0%E7%9A%84%E4%B8%80%E4%B8%AA%E9%97%AE%E9%A2%98/result%EF%BC%882%EF%BC%89-1589189851450.jpg" class title="result"><p>就直接报错了，然后，我换成properties文件</p><img src="/2020/04/30/%E8%BF%9C%E7%A8%8B%E6%95%B0%E6%8D%AE%E5%BA%93%E8%BF%9E%E6%8E%A5%E6%97%B6%E9%81%87%E5%88%B0%E7%9A%84%E4%B8%80%E4%B8%AA%E9%97%AE%E9%A2%98/properties-1589190803208.jpg" class title="properties"><img src="/2020/04/30/%E8%BF%9C%E7%A8%8B%E6%95%B0%E6%8D%AE%E5%BA%93%E8%BF%9E%E6%8E%A5%E6%97%B6%E9%81%87%E5%88%B0%E7%9A%84%E4%B8%80%E4%B8%AA%E9%97%AE%E9%A2%98/result(3)-1589190105737.jpg" class title="result"><p>通过了，没有报错。</p><p>是yaml文件和properties文件的区别吗？</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;远程数据库连接时遇到的一个问题&quot;&gt;&lt;a href=&quot;#远程数据库连接时遇到的一个问题&quot; class=&quot;headerlink&quot; title=&quot;远程数据库连接时遇到的一个问题&quot;&gt;&lt;/a&gt;远程数据库连接时遇到的一个问题&lt;/h1&gt;&lt;h3 id=&quot;——Summary-of-
+      
+    
+    </summary>
+    
+    
+    
+      <category term="springboot" scheme="http://yoursite.com/tags/springboot/"/>
+    
+      <category term="yaml" scheme="http://yoursite.com/tags/yaml/"/>
+    
+  </entry>
   
   <entry>
     <title>浅谈深度优先搜索dfs</title>
