@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://jjj-meker.github.io/"/>
-  <updated>2020-08-03T13:16:17.431Z</updated>
+  <updated>2020-08-02T14:37:02.405Z</updated>
   <id>https://jjj-meker.github.io/</id>
   
   <author>
@@ -15,31 +15,6 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>随笔</title>
-    <link href="https://jjj-meker.github.io/2020/08/03/%E9%9A%8F%E7%AC%94/"/>
-    <id>https://jjj-meker.github.io/2020/08/03/%E9%9A%8F%E7%AC%94/</id>
-    <published>2020-08-03T12:56:14.000Z</published>
-    <updated>2020-08-03T13:16:17.431Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="随笔一写"><a href="#随笔一写" class="headerlink" title="随笔一写"></a>随笔一写</h1><p>​        一直没怎么管自己的博客，搭好后就一直撂在那里，而且搭的比较简陋。</p><p>​        自从4月写了一点东西之后，自己虽然打算写，但是一直没有动手。直到现在暑假了，又想起了自己的博客，也觉得还是要写点东西的。</p><p>​        现在也算是基本配置完成了，虽然存在一些瑕疵，但是以后再慢慢不回来吧（先立个flag）。不过说真的，这个配置也确实花了我不少时间和精力。不过还好，最后感觉我的博客还是勉强可以的，至少我自己还是很喜欢的。</p><p>​        也不多吐槽了，付出的还是值得的，希望自己以后能坚持下来，每个月都写点东西。加油！</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h1 id=&quot;随笔一写&quot;&gt;&lt;a href=&quot;#随笔一写&quot; class=&quot;headerlink&quot; title=&quot;随笔一写&quot;&gt;&lt;/a&gt;随笔一写&lt;/h1&gt;&lt;p&gt;​        一直没怎么管自己的博客，搭好后就一直撂在那里，而且搭的比较简陋。&lt;/p&gt;
-&lt;p&gt;​        自从4月
-      
-    
-    </summary>
-    
-    
-    
-      <category term="随笔" scheme="https://jjj-meker.github.io/tags/%E9%9A%8F%E7%AC%94/"/>
-    
-  </entry>
   
   <entry>
     <title>docker部署时遇到的一个问题</title>
