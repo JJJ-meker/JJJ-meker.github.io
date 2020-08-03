@@ -327,7 +327,27 @@
   
 
   
+  
+  <div id="gitalk-container" style="padding: 0px 30px 0px 30px;"></div> 
 
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+<script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
+<script type="text/javascript">
+
+if(true){
+	var gitalk = new Gitalk({
+  	clientID: '',
+  	clientSecret: '',
+  	repo: 'JJJ-meker.github.io',
+  	owner: '',
+  	admin: [''],
+  	id: 'Mon Mar 23 2020 21:11:21 GMT+0800',
+  	distractionFreeMode: 'true'
+})
+gitalk.render('gitalk-container') 
+}
+</script>
+  
   
 
 
